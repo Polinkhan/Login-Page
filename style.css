@@ -43,13 +43,18 @@
     cursor: pointer;
 }
 .img_sec h3{
+    color: rgb(243, 84, 222);
     text-align: center;
     position: absolute;
     top: 65%;
     left: 50%;
     text-transform: capitalize;
     transform: translate(-50%,-50%);
+    letter-spacing: 2px;
+    opacity: 0;
     transition: 0.5s all ease;
+    text-shadow: -1px 1px 1px black;
+    font-weight: lighter;
 }
 .img_sec img{
     position: absolute;
@@ -63,6 +68,7 @@
     top: 40%;
 }
 .img_sec:hover > h3{
+    opacity: 1;
     top: 75%;
 }
 .login_sec{
@@ -111,4 +117,3 @@
     background-color: rgb(219, 219, 219);
     box-shadow: 0px 2px 5px rgb(112, 112, 112);
 }
-
