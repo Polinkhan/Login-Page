@@ -30,7 +30,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     width: 800px;
-    height: 50vh;
+    height: 500px;
     background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
@@ -38,7 +38,7 @@
     
 }
 .img_sec{
-    height: 50vh;
+    height: 500px;
     position: relative;
     cursor: pointer;
 }
@@ -66,7 +66,7 @@
     top: 75%;
 }
 .login_sec{
-    height: 50vh;
+    height: 500px;
 }
 .login_sec h1{
     margin: 50px;
@@ -85,7 +85,7 @@
 }
 .username input,.password input{
     border: none;
-    height: 7vh;
+    height: 70px;
     width: 100%;
     border-radius: 1000px;
     background-color: rgb(219, 219, 219);
@@ -105,9 +105,10 @@
 .final button{
     font-size: 1rem;
     border: none;
-    height: 5vh;
+    height: 50px;
     width: 30%;
     border-radius: 1000px;
     background-color: rgb(219, 219, 219);
     box-shadow: 0px 2px 5px rgb(112, 112, 112);
 }
+
